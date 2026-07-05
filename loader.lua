@@ -1,4 +1,4 @@
-local encrypted = game:HttpGet("https://raw.githubusercontent.com/SCORPIO6776/GodOfTheRPG3/refs/heads/main/script_encrypted.txt")
+local encrypted = game:HttpGet("https://raw.githubusercontent.com/SCORPIO6776/GodOfTheRPG3/refs/heads/main/I'm watching you.txt")
 local b = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
 local function dec(data)
     data = string.gsub(data, '[^'..b..'=]', '')
